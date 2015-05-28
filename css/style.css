@@ -101,7 +101,7 @@ h1{
 }
 
 .me_window{
-	margin-left: 10%;
+	margin-left: 11%;
 	height: 330px;
 	width:330px;
 	background-image: url("../images/pic.jpg");
@@ -111,6 +111,26 @@ h1{
 	background-attachment: fixed;
 	border-radius: 165px;
 	margin-bottom: 30px;
+	position: relative;
 }
+
+.tint{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50%;
+}
+
+.face-text{
+	color: white;
+	margin-top: 50%;
+	font-family: Copperplate;
+	font-weight: 100;
+	font-size: 18px;
+}
+
 
 

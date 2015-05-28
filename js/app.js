@@ -29,4 +29,11 @@ $(window).scroll(function(){
 			});
 	}
 
+	if (wScroll > $(".me_window").offset().top - $(window).height()){
+		
+		var opacity = (wScroll - $(".me_window").offset().top + 400) / (wScroll / 2.4) 
+		
+		$(".tint").css({'opacity': opacity})
+	}
+
 });
