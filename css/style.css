@@ -18,14 +18,6 @@ h1{
   text-align: center;
 }
 
-.content img{
-	height: 200px;
-	text-align: center;
-	margin-bottom: 20px;
-	border-top-right-radius: 50px;
-	border-bottom-left-radius: 50px;
-}
-
 .stuff{
 	height: 2000px;
 }
@@ -106,6 +98,19 @@ h1{
 
 .photograph h1{
 	font-size: 80px;
+}
+
+.me_window{
+	margin-left: 10%;
+	height: 330px;
+	width:330px;
+	background-image: url("../images/pic.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 400px 400px;
+	background-attachment: fixed;
+	border-radius: 165px;
+	margin-bottom: 30px;
 }
 
 
