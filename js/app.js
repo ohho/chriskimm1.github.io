@@ -4,8 +4,6 @@ $(window).scroll(function(){
 	var scrollPos = $(window).scrollTop();
 	var navOffset = $("nav").offset().top;
 	
-	console.log(scrollPos)
-	console.log(navOffset)
 
 	$(".logo").css({
 		'transform' : 'translate(0px, '+ wScroll /2.3 +'%)'
@@ -17,6 +15,18 @@ $(window).scroll(function(){
 	
 	if (scrollPos < 620){
 		$("nav").removeClass("fixed")
+	}
+
+	if (wScroll > $('.work').offset().top){
+			$(".work img").each(function(i){
+
+
+					setTimeout(function(){
+						
+					$(".work img").eq(i).addClass("is-showing");
+					}, 150 * (i+1));
+
+			});
 	}
 
 });

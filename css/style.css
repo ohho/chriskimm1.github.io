@@ -55,6 +55,7 @@ h1{
 	background-color: rgba(0,0,0, 0.9);
 	height: 43px;
 	width: 100%;
+	z-index: 1;
 }
 
 .nav li{
@@ -73,17 +74,38 @@ h1{
 }
 
 .work{
+	position: relative;
 	padding: 100px;
+	width: 100%;
 	background-color: lightgrey;
+	display: block;
+	float: left;
 }
 
-.work li{
-	margin: 40px;
-	list-style: none;
+.work img{
+	margin: 30px;
+	background: blue;
+	opacity: 0;
+	transform: translateX(-20);
+	transition: all 0.3s ease-in-out;
 }
 
-.work p{
-	margin-top: 30px;
+
+
+.work .is-showing{
+	opacity: 1;
+	transform: translateX(0px) ;
+}
+
+
+
+
+.photograph{
+	padding: 100px;
+}
+
+.photograph h1{
+	font-size: 80px;
 }
 
 
