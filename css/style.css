@@ -61,6 +61,11 @@ h1{
 	top: 0;
 }
 
+figure{
+	display: inline-block;
+	position: relative;
+}
+
 .work h1{
 	font-size: 80px;
 }
@@ -76,6 +81,7 @@ h1{
 
 .work img{
 	margin: 30px;
+	margin-left: 60px;
 	background: blue;
 	opacity: 0;
 	transform: translateX(-20);
@@ -131,6 +137,41 @@ h1{
 	font-weight: 100;
 	font-size: 18px;
 }
+
+img{
+	display: block;
+	transform: scale(1);
+}
+
+figcaption{
+	position: absolute;
+	display: block;
+	width: 398px;
+	bottom: 40px;
+	left: -400%;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	padding: 2px 8px;
+	transition: all 0.5s ease-in-out;
+	overflow: hidden;
+}
+
+figure{
+	overflow: hidden;
+}
+
+figure:hover figcaption{
+	left: 12.4%;
+}
+
+figure:hover{
+	transform: scale(1.2);
+	transition: all 0.5s ease-in-out;
+}
+
+
+
+
 
 
 
