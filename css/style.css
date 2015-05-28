@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body{
+	font-family: 'lobster', cursive;
+}
+
+h1{
+	font-weight: 1000!important;
+	margin-bottom: 50px;
+}
+
+.content article{
+	padding: 100px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content img{
+	height: 200px;
+	text-align: center;
+	margin-bottom: 20px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.stuff{
+	height: 2000px;
+}
+
+.box{
+	position: relative;
+	height: 620px;
+	width: 100%;
+	background-image: url("../images/BG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+.logo{
+	height: 100px;
+	width: 100%;
+	background-image: url("../images/logo.png");
+	background-position: center;	
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;	
+}
+
+.nav{
+	background-color: rgba(0,0,0, 0.9);
+	height: 43px;
+	width: 100%;
+}
+
+.nav li{
+	display: inline-block;
+	margin: 10px;
+	float: right;
+}
+
+.fixed{
+	position: fixed;
+	top: 0;
+}
+
+.work h1{
+	font-size: 80px;
+}
+
+.work{
+	padding: 100px;
+	background-color: lightgrey;
+}
+
+.work li{
+	margin: 40px;
+	list-style: none;
+}
+
+.work p{
+	margin-top: 30px;
+}
+
+
