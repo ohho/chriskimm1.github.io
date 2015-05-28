@@ -154,6 +154,7 @@ figcaption{
 	padding: 2px 8px;
 	transition: all 0.5s ease-in-out;
 	overflow: hidden;
+	font-family: Copperplate;
 }
 
 figure{
@@ -167,6 +168,13 @@ figure:hover figcaption{
 figure:hover{
 	transform: scale(1.2);
 	transition: all 0.5s ease-in-out;
+}
+
+figure a{
+	color: magenta;
+	border: 1px solid magenta;
+	font-weight: 50;
+	opacity: 1;
 }
 
 
