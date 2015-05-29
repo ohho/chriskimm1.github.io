@@ -1,12 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
-h1{
-	font-family: 'lobster', cursive;
-}
+
 
 h1{
-	font-weight: 1000!important;
+	font-weight: 1000;
 	margin-bottom: 50px;
+	font-family: 'lobster', cursive;
 }
 
 .content article{
@@ -182,8 +181,8 @@ figure a{
 	opacity: 1;
 }
 
-p{
-	font-family: "HelveticaNeau-light";
+p {
+	font-family: "Times New Roman", Times, serif;;
 	font-weight: 300;
 }
 
