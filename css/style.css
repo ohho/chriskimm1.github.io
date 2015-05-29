@@ -15,7 +15,11 @@ h1{
 	padding-bottom: 150px;
 	max-width: 640px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
+}
+
+.content h1{
+	text-align: center;
 }
 
 .stuff{
@@ -136,6 +140,7 @@ figure{
 	font-family: Copperplate;
 	font-weight: 100;
 	font-size: 18px;
+	text-align: center;
 }
 
 img{
@@ -147,14 +152,14 @@ figcaption{
 	position: absolute;
 	display: block;
 	width: 398px;
-	bottom: 40px;
+	bottom: 30px;
 	left: -400%;
 	background-color: rgba(0,0,0,0.5);
 	color: white;
 	padding: 2px 8px;
 	transition: all 0.5s ease-in-out;
 	overflow: hidden;
-	font-family: Copperplate;
+	font-family: "Lato", sans-serif;
 }
 
 figure{
@@ -175,6 +180,14 @@ figure a{
 	border: 1px solid magenta;
 	font-weight: 50;
 	opacity: 1;
+}
+
+p{
+	font-family: "Helvetica Neau";
+	font-weight: 300;
+/*	border: 2px solid black;
+	padding: 20px;
+	background: lightgrey;*/
 }
 
 
