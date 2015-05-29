@@ -17,14 +17,14 @@ $(window).scroll(function(){
 		$("nav").removeClass("fixed")
 	}
 
-	if (wScroll > $('.work').offset().top){
+	if (wScroll + 255 > $('.work').offset().top){
 			$(".work img").each(function(i){
 
 
 					setTimeout(function(){
 						
 					$(".work img").eq(i).addClass("is-showing");
-					}, 150 * (i+1));
+					}, 350 * (i+1));
 
 			});
 	}
