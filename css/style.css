@@ -211,7 +211,7 @@ p {
 }
 
 .carousel{
-	width: 750px ;
+	width: 750px;
 	margin: 0 auto;
 }
 
@@ -222,8 +222,7 @@ p {
 }
 
 footer{
-	padding: 100px;
-	height: 300px;
+	padding: 50px;
 	background: grey;
 }
 
@@ -247,8 +246,10 @@ i:hover{
 footer h1{
 	float: right;
 	margin-right: 100px;
-	height: 4px;
+	
 }
+
+
 
 
 
