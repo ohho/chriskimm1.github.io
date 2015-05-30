@@ -7,6 +7,7 @@ h1{
 	margin-bottom: 50px;
 	font-family: 'lobster', cursive;
 	text-align: center;
+	font-size: 80px;
 }
 
 .content article{
@@ -18,8 +19,8 @@ h1{
   text-align: left;
 }
 
-.content h1{
-	text-align: center;
+.youtube{
+	margin-left: 250px;
 }
 
 .stuff{
@@ -205,6 +206,26 @@ p {
 	width: 750px ;
 	margin: 0 auto;
 }
+
+.dance{
+	background-color: lightgrey;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+footer{
+	padding: 100px;
+	height: 400px;
+	background: grey;
+}
+
+i{
+	font-size: 50px!important;
+	color: white;
+}
+
+
+
 
 
 
