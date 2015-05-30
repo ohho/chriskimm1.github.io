@@ -6,6 +6,7 @@ h1{
 	font-weight: 1000;
 	margin-bottom: 50px;
 	font-family: 'lobster', cursive;
+	text-align: center;
 }
 
 .content article{
@@ -84,11 +85,12 @@ figure{
 
 .work img{
 	margin: 30px;
-	margin-left: 60px;
+	margin-left: 70px;
 	background: blue;
 	opacity: 0;
 	transform: translateX(-20);
 	transition: all 0.3s ease-in-out;
+
 }
 
 
@@ -186,6 +188,25 @@ p {
 	font-weight: 100;
 	font-size: 17px;
 }
+
+.photograph img{
+	height: 500px!important;
+	width: auto;
+	margin: 0 auto;
+	
+}
+
+.carousel-inner{
+	height: 500px;
+	background-color: grey;
+}
+
+.carousel{
+	width: 750px ;
+	margin: 0 auto;
+}
+
+
 
 
 

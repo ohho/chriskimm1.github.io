@@ -36,4 +36,5 @@ $(window).scroll(function(){
 		$(".tint").css({'opacity': opacity})
 	}
 
+
 });
