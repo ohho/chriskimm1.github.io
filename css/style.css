@@ -47,13 +47,15 @@ h1{
 }
 
 .logo{
-	height: 100px;
+	height: 250px;
 	width: 100%;
-	background-image: url("../images/logo.png");
+	background-image: url("../images/kimchi4.png");
 	background-position: center;	
+	background-repeat: no-repeat;
 	position: absolute;
 	top: 50%;
-	margin-top: -50px;	
+	margin-top: -150px;	
+	z-index: 5;
 }
 
 .nav{
@@ -113,7 +115,7 @@ figure{
 
 
 .photograph{
-	padding: 100px;
+	padding: 50px;
 }
 
 .photograph h1{
