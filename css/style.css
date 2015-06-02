@@ -1,7 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
+body{
+	background-color: #A2DED0;
+}
+
 a{
-	color: #34495e;
+	color: blue;
 }
 
 a:hover{
@@ -25,10 +29,11 @@ h1{
 	max-width: 640px;
   margin: 0 auto;
   text-align: left;
+  color: whitesmoke;
 }
 
 .content{
-	background-color: #2ecc71;
+	background-color: #F5AB35;
 }
 
 .youtube{
@@ -104,7 +109,9 @@ figure{
 	position: relative;
 	padding: 100px;
 	width: 100%;
-	background-color: lightgrey;
+	background-color: #2ECC71;
+	color: whitesmoke;
+;
 	display: block;
 	float: left;
 }
@@ -131,6 +138,8 @@ figure{
 
 .photograph{
 	padding: 50px;
+	background-color: #A2DED0;
+	color: whitesmoke;
 }
 
 .photograph h1{
@@ -233,7 +242,8 @@ p {
 }
 
 .dance{
-	background-color: lightgrey;
+	background-color: #F64747;
+	color: whitesmoke;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
@@ -255,7 +265,7 @@ i:hover{
 }
 
 .border{
-	background-color: darkred;
+	background-color: #ecf0f1;
 	width: 100%;
 	height: 10px;
 }
