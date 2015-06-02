@@ -9,6 +9,10 @@ $(window).scroll(function(){
 		'transform' : 'translate(0px, '+ wScroll / 10.4 +'%)'
 	});
 
+	$(".building").css({
+		'transform' : 'translate(0px, -'+ wScroll / 15 +'%)'
+	});
+
 	if (scrollPos >= navOffset){
 		$(".nav").addClass("fixed");
 	} 

@@ -44,6 +44,7 @@ h1{
 	background-size: cover;
 	background-position: top center;
 	background-attachment: fixed;
+	overflow: hidden;
 }
 
 .logo{
@@ -56,6 +57,19 @@ h1{
 	top: 50%;
 	margin-top: -150px;	
 	z-index: 5;
+}
+
+.building{
+	width: 960px;
+	height: 800px;
+	background-image: url("../images/building.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	position: absolute;
+	left: 50%;
+	margin-left: -380px;
+	top: 150px;
+	color: white;
 }
 
 .nav{
