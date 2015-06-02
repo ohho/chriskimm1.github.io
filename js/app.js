@@ -6,7 +6,7 @@ $(window).scroll(function(){
 	
 
 	$(".logo").css({
-		'transform' : 'translate(0px, '+ wScroll / 7.3 +'%)'
+		'transform' : 'translate(0px, '+ wScroll / 10.4 +'%)'
 	});
 
 	if (scrollPos >= navOffset){
