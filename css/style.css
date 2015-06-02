@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
 a{
-	color: lightgrey;
+	color: #34495e;
 }
 
 a:hover{
@@ -27,17 +27,18 @@ h1{
   text-align: left;
 }
 
+.content{
+	background-color: #2ecc71;
+}
+
 .youtube{
 	margin-left: 250px;
 }
 
-.stuff{
-	height: 2000px;
-}
 
 .box{
 	position: relative;
-	height: 620px;
+	height: 600px;
 	width: 100%;
 	background-image: url("../images/BG.png");
 	background-repeat: no-repeat;
@@ -73,7 +74,7 @@ h1{
 }
 
 .nav{
-	background-color: rgb(139,0,0);
+	background-color: #1abc9c;
 	height: 43px;
 	width: 100%;
 	z-index: 1;
@@ -255,6 +256,12 @@ i:hover{
 
 .border{
 	background-color: darkred;
+	width: 100%;
+	height: 10px;
+}
+
+.top_border{
+	background-color: #ecf0f1;
 	width: 100%;
 	height: 10px;
 }
