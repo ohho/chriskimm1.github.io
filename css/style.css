@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700,800);
 
 body{
-	background-color: #A2DED0;
+	background-color: #303232;
 }
 
 a{
@@ -10,30 +11,30 @@ a{
 
 a:hover{
 	color: white;
-	transform: scale(1.2);
-	transition: all 0.5s ease-in-out;
 }
 
 h1{
 	font-weight: 1000;
 	margin-bottom: 50px;
-	font-family: 'lobster', cursive;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	font-size: 80px;
+	font-weight: 600;
+	color: white;
 }
 
 .content article{
 	padding: 100px;
 	padding-top: 150px;
 	padding-bottom: 150px;
-	max-width: 640px;
+	max-width: 800px;
   margin: 0 auto;
   text-align: left;
   color: whitesmoke;
 }
 
 .content{
-	background-color: #F5AB35;
+	background-color: #303232;
 }
 
 .youtube{
@@ -63,6 +64,7 @@ h1{
 	top: 50%;
 	margin-top: -150px;	
 	z-index: 5;
+	opacity: 0.8;
 }
 
 .building{
@@ -79,7 +81,7 @@ h1{
 }
 
 .nav{
-	background-color: #1abc9c;
+	background-color: #363838;
 	height: 43px;
 	width: 100%;
 	z-index: 1;
@@ -89,6 +91,21 @@ h1{
 	display: inline-block;
 	margin: 10px;
 	float: right;
+}
+
+.nav li a {
+	color: white;
+	font-size: 14px;
+	line-height: 20px;
+	margin-right: 10px;
+}
+
+.nav li a:hover {
+	color: rgb(25, 198, 179);
+	font-size: 16px;
+	margin-right: 5px;
+	transition: all 0.5s ease-in-out;
+	text-decoration: none;
 }
 
 .fixed{
@@ -103,17 +120,19 @@ figure{
 
 .work h1{
 	font-size: 80px;
+	font-weight: 800;
 }
 
 .work{
 	position: relative;
 	padding: 100px;
 	width: 100%;
-	background-color: #2ECC71;
+	background-color: #474C49;
 	color: whitesmoke;
 ;
 	display: block;
 	float: left;
+	text-align: center;
 }
 
 .work img{
@@ -126,19 +145,14 @@ figure{
 
 }
 
-
-
 .work .is-showing{
 	opacity: 1;
 	transform: translateX(0px) ;
 }
 
-
-
-
 .photograph{
 	padding: 50px;
-	background-color: #A2DED0;
+	background-color: #303232;
 	color: whitesmoke;
 }
 
@@ -147,16 +161,17 @@ figure{
 }
 
 .me_window{
-	margin-left: 11%;
+	margin: auto;
 	height: 330px;
 	width:330px;
+	background-color: white;
 	background-image: url("../images/pic.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 400px 400px;
 	background-attachment: fixed;
 	border-radius: 165px;
-	margin-bottom: 30px;
+	margin-bottom: 80px;
 	position: relative;
 }
 
@@ -173,7 +188,7 @@ figure{
 .face-text{
 	color: white;
 	margin-top: 50%;
-	font-family: Copperplate;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 	font-size: 18px;
 	text-align: center;
@@ -187,15 +202,21 @@ img{
 figcaption{
 	position: absolute;
 	display: block;
-	width: 398px;
+	width: 400px;
+	height: 204px;
 	bottom: 30px;
 	left: -400%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.75);
 	color: white;
 	padding: 2px 8px;
 	transition: all 0.5s ease-in-out;
 	overflow: hidden;
-	font-family: "Lato", sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	text-align: left;
+	padding: 15px;
+	text-align: center;
 }
 
 figure{
@@ -203,7 +224,7 @@ figure{
 }
 
 figure:hover figcaption{
-	left: 13.9%;
+	left: 14%;
 }
 
 figure:hover{
@@ -211,15 +232,18 @@ figure:hover{
 	transition: all 0.5s ease-in-out;
 }
 
-figure a{
-	color: magenta;
-	border: 1px solid magenta;
+figure a {
+	color: rgb(25, 198, 179);
 	font-weight: 50;
 	opacity: 1;
 }
 
+figure a:hover {
+	text-decoration: none;
+}
+
 p {
-	font-family: "Times New Roman", Times, serif;;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 	font-size: 17px;
 }
@@ -233,7 +257,7 @@ p {
 
 .carousel-inner{
 	height: 500px;
-	background-color: grey;
+	background-color: #303232;
 }
 
 .carousel{
@@ -241,24 +265,29 @@ p {
 	margin: 0 auto;
 }
 
+.carousel-control.right,
+.carousel-control.left {
+	background: none;
+}
+
 .dance{
-	background-color: #F64747;
+	background-color: #474C49;
 	color: whitesmoke;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
 
-footer{
+footer {
 	padding: 50px;
-	background: grey;
+	background: rgb(30, 30, 30);
 }
 
-i{
+i {
 	font-size: 50px!important;
-	color: darkred;
+	color: rgb(25, 198, 179);
 }
 
-i:hover{
+i.fa:hover{
 	color: white;
 	transform: scale(1.2);
 	transition: all 0.5s ease-in-out;
@@ -270,16 +299,24 @@ i:hover{
 	height: 10px;
 }
 
-.top_border{
+.top_border {
 	background-color: #ecf0f1;
 	width: 100%;
-	height: 10px;
+	height: 3px;
 }
 
-footer h1{
-	float: right;
-	margin-right: 100px;
-	
+footer h1 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+footer i {
+	margin: 0 10px;
+}
+
+.footer {
+	text-align: center;
 }
 
 
